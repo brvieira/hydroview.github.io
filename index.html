@@ -7,20 +7,17 @@
     <title>Hydro View</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <div class="container-fluid">
-        <div class="table-responsive"></div>
-        <table class="table table-striped table-sm" id="dados">
-            <thead>
-                <tr>
-                    <th>Temperatura Interna</th>
-                    <th>Umidade Interna</th>
-                </tr>
-            </thead>
-        </table>
-
+        <nav class="navbar shadow-sm navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">HYDRO VIEW</a>
+        </nav>
+        <div class="table-responsive">
+            <table class="table table-striped table-sm" id="dados"></table>
+        </div>
     </div>
     <script src="./js/jquery-3.3.1.js"></script>
     <script src="./bootstrap/popper.min.js"></script>

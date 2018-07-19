@@ -1,0 +1,11 @@
+.table-responsive {
+    bottom: 0;
+    width: 100%;
+    height: 90vh;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.container-fluid {
+    padding: 0;
+}
