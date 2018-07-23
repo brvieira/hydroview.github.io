@@ -2,7 +2,8 @@ $(function () {
     var $dados = $('#dados');
 
     $.getJSON('https://hydroapi.herokuapp.com/dados', function (data) {
-        if (data == null) {
+        console.log(data);
+        if (data.length == 0) {
             $dados.append('<spam>Não existem dados à serem exibidos</spam>');
         }
         else {
